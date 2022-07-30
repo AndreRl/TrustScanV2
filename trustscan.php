@@ -165,7 +165,7 @@ if($mybb->request_method === "post")
         {
             $user['agent'] = $db->fetch_field($user['agent'], "useragent");
             $useragent = "<br /><span class=\"smalltext\">User Agent: ".$user['agent']." </span>";
-        } else
+        }
 
         $secondary = "usercheck";
 
